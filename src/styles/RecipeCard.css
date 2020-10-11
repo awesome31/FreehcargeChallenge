@@ -1,0 +1,38 @@
+img {
+  height: fit-content;
+  height: 200px;
+}
+
+.card {
+  height: 490px;
+  cursor: pointer;
+  box-shadow: 2;
+}
+
+.card-text {
+  height: 120px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.col-xs-4 {
+  margin-right: 20px;
+}
+
+.button {
+  position: absolute;
+}
+
+.card-img-overlay {
+  visibility: hidden;
+}
+
+.card:hover > .card-img-overlay {
+  visibility: visible;
+}
+
+.card:hover > .card-img-top {
+  opacity: 0.5;
+}
